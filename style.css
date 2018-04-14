@@ -1,0 +1,97 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+@import url('https://fonts.googleapis.com/css?family=Sunshiney');
+body {
+  padding: 5px 25px;
+  font-size: 18px;
+  margin: 0;
+  color: #444;
+  
+  background-color: #ff6d6d;
+  animation-name: changeColor;
+  animation-duration: 75s;
+  
+}
+
+@keyframes changeColor {
+  0% {background-color: #ff6d6d;}
+  4% {background-color: antiquewhite;}
+  8% {background-color: #ffff79;}
+  12% {background-color:orchid ;}
+  16% {background-color: #d460ac;}
+  20% {background-color:lightgreen;}
+  24% {background-color:#9cffff;}
+  28% {background-color:lightcoral;}
+  32% {background-color:#7dffdf;}
+  36% {background-color: lemonchiffon;}
+  40% {background-color:#61a2ff;}
+  44% {background-color: sandybrown;}
+  48% {background-color:#ffc76d;}
+  52% {background-color: lightcyan;}
+  56% {background-color:#ae90d9;}
+  60% {background-color:thistle;}
+  64% {background-color:#ccff95;}
+  68% {background-color: greenyellow;}
+  72% {background-color:#ffadfb;}
+  76% {background-color: mediumaquamarine;}
+  80% {background-color: tomato;}
+  84% {background-color: mediumspringgreen;}
+  88% {background-color:peru;}
+  92% {background-color:mistyrose;}
+  96% {background-color:violet;}
+  100% {background-color:#ff6d6d;}
+  
+}
+h1 {
+  font-family: 'Sunshiney', cursive;
+  font-size: 45px;
+}
+
+p {
+  font-family: 'Sunshiney', cursive;
+  font-size: 35px;
+}
+
+button {
+  display: inline-block;
+  padding: 15px 25px 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #383838;
+  background-color: #caed7f;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+button:hover {background-color: #b3d076}
+
+button:active {
+  background-color: #8dbe75;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#button_text {
+ width: 5px;
+   height:7px;
+}
+
+.zoom {
+  transition: transform 1.5s;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(13.5); 
+}
+
+
+
+
+
+
